@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Istok+Web:700|Yantramanav:500&display=swap" rel="stylesheet">
+    <title>Raul's contact info</title>
+    <style>
+        .myphoto{
+            float: left;
+            width: 40%;
+            height: auto;
+            padding-right: 15px;
+            padding-bottom: 15px;
+        }
+        @media screen and (max-width: 1000px) {
+            .myphoto {
+                width: 50%;
+            }
+        }
+        @media screen and (max-width: 400px) {
+            .myphoto {
+                width: 100%;
+                padding: 30px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .mybio{
+            margin: 15px;
+            }
+        .aboutme{
+           margin-left: 15px;
+        }
+        }
+        .aboutme{
+            padding: 15px;
+        }
+        .mybio{
+            margin-left: 5px;
+            padding-left: 5px;
+            font-family: 'Yantramanav', sans-serif;
+            font-size: larger;
+            text-align: justify;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Adding a Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="./index.html">Raul Alarcon</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="./about.html">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- End of the Nav Bar -->
+      <!-- grid 2 columns  -->
+      <div class="container">
+          <div class="row">
+            <h1 class="aboutme">About me</h1>  
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img class="myphoto" src="./assets/yo.png" alt="My Pro Picture"> 
+                    <p class="mybio">
+                        I'm an Electronic engineer by Puebla’s Autonomous University and have a
+                        Master Degree in Innovation for Business Development by “Tecnologico de
+                        Monterrey”. <br>
+                        I work for Honeywell leading an international engineering team that enables the fast-growing
+                        trend of e-commerce in North-America by solving the toughest technology challenges in Automated Supply Chain. <br>
+                        Leveraging on the latest technology, Agile principles and Top Talent; to drive the Innovation engine that will make the Future of connected distribution centers. <br>
+                        Additional to his engineering responsibilities, I'm the HTS LATAM Local Innovation Ecosystem Leader: Ensuring collaboration with local Universities, Technology partners and startups: for talent attraction, joint research and shared infrastructure, to enable Honeywell’s LATAM Innovation process with the interaction of marketing, sales and engineering. <br>
+                        Identifying LATAM customer needs and designing local connected solutions that will add value to regional customers. <br>
+                        My professional experience before Honeywell includes diverse leading positions in marketing, product management and engineering in companies like Emerson, ABB and Mafrinsa.
+                    </p>
+                </div>
+          </div>
+      </div>
+      <!-- components require the use of JavaScript to function -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- end of JS -->
+</body>
+</html>
