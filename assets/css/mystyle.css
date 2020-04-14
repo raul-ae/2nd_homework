@@ -35,10 +35,7 @@ footer a {
 .myname{
   color: whitesmoke;
   font-weight: bolder;
-  /* font-size: 8vw; */
-  /* font-family: 'Istok Web', sans-serif; */
   padding: 33% 0;
-  font-family: 'Yantramanav', sans-serif;
   text-shadow: 2px 2px 15px rgb(134, 131, 131);
 }
 
