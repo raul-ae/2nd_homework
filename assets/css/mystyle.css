@@ -1,0 +1,88 @@
+/* general styles */
+footer a {
+    color: #4c4947;
+    margin-top: 5px;
+    }
+    .footer .container{
+        margin-top: 10px;
+    }
+    body{
+        background-color: #efedef;
+        color: #4c4947;
+    }
+    
+/* Styles for Index page */
+.Backgrond-Photo {
+    height: 780px;
+    width: 100%;
+    /* margin-bottom: 20px; */
+    background-image: url("../back1.png");
+    background-size: cover;
+    background-position: left;
+    font-size: 5vw;
+}
+@media screen and (max-width: 400px) {
+    .Backgrond-Photo {
+      height: 600px;
+    width: 100%;
+    /* margin-bottom: 20px; */
+    background-image: url("../back1.png");
+    background-size: cover;
+    background-position: left;
+    font-size: 11vw;
+        }
+}
+.myname{
+  color: whitesmoke;
+  font-weight: bolder;
+  /* font-size: 8vw; */
+  /* font-family: 'Istok Web', sans-serif; */
+  padding: 33% 0;
+  font-family: 'Yantramanav', sans-serif;
+  text-shadow: 2px 2px 15px rgb(134, 131, 131);
+}
+
+/* styles for about page */
+.myphoto{
+    float: left;
+    width: 40%;
+    height: auto;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+@media screen and (max-width: 1000px) {
+    .myphoto {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .myphoto {
+        width: 100%;
+        padding: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .mybio{
+    margin: 15px;
+    }
+.aboutme{
+   margin-left: 15px;
+}
+}
+.aboutme{
+    padding: 15px;
+    color: #4c4947;
+}
+.mybio{
+    margin-left: 5px;
+    padding-left: 5px;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: larger;
+    text-align: justify;
+    color: #4c4947;
+}
+/* Style for Portfolio */
+.card {
+    width: 18rem;
+    margin-top: 4rem;
+}
