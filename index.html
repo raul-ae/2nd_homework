@@ -8,13 +8,24 @@
     <link href="https://fonts.googleapis.com/css?family=Istok+Web:700|Yantramanav:500&display=swap" rel="stylesheet">
     <style type="text/css">
       .Backgrond-Photo {
-        height: 100%;
-        width: auto;
+        height: 800px;
+        width: 100%;
         /* margin-bottom: 20px; */
-        background-image: url("./assets/back.jpg");
+        background-image: url("./assets/back1.jpg");
         background-size: cover;
         background-position: center;
         font-size: 4vw;
+    }
+    @media screen and (max-width: 400px) {
+        .Backgrond-Photo {
+          height: 600px;
+        width: 100%;
+        /* margin-bottom: 20px; */
+        background-image: url("./assets/back1.jpg");
+        background-size: cover;
+        background-position: left;
+        font-size: 4vw;
+            }
     }
     .myname{
       color: whitesmoke;
